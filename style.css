@@ -1,0 +1,50 @@
+header {
+  
+}
+
+nav {
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.container {
+    display: grid;
+    grid-template: 'header header header'; 
+    border: solid black 1px;
+    flex-direction:column;
+}
+
+.container p {
+    display:flex;
+    text-align: center;
+}
+
+.logo {
+  display: flex;
+  width: 10%;
+  height:10%;
+
+}
+.description {
+   display:flex;
+    text-align: center;
+    
+}
+img {
+  position:relative;
+  width: 50%;
+  height: 50%;
+  object-fit: fill;
+}
+
+main {
+    margin-top: 20px;
+    border: solid black 1px;
+
+}
+
+.headerBagelPicture {
+    
+}
+
